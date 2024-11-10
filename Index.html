@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- <div id="intro">
+    Welcome To <b id="s">Snake</b> <b id="w">Water</b> <b id="g">Gun</b> Game
+    <br>
+    <a href="Ex2_Rock_Paper_Sizer.html" title="Relode"><img src="https://webstockreview.net/images/clipart-snake-cartoon-19.png" alt="" height="200px" width="200px"></a>
+</div>
+<br>
+<div id="ply" class="main">
+        <span>Choose</span>
+    <div class="sel">
+        <li><button onclick="">Snake</button></li>
+        <li><button onclick="">Water</button></li>
+        <li><button onclick="">Gun</button></li>
+    </div>
+</div> -->
+    <div id="intro">
+        <b style="font-size: 20px;">Welcome To </b><b style="color: rgb(8, 169, 51); font-size: 30px;">Snake</b> <b style="color: rgb(5, 5, 203); font-size: 25px;">Water</b> <b style="color: #6a6969; font-size: 35px;">Gun</b> <b style="font-size: 20px;">Game</b>
+        <br>
+        <a href="Ex2_Rock_Paper_Sizer.html" title="Reload">
+            <img src="https://webstockreview.net/images/clipart-snake-cartoon-19.png" alt="Snake Image" height="200px" width="200px">
+        </a>
+    </div>
+    <br>
+    <div id="start">
+        <button onclick="startGame()">Get Started</button>
+    </div>
+    <div id="ply" class="main" style="display:none;">
+        <span>Choose</span>
+        <div class="sel">
+            <li><button onclick="choose('snake')">Snake</button></li>
+            <li><button onclick="choose('water')">Water</button></li>
+            <li><button onclick="choose('gun')">Gun</button></li>
+        </div>
+        <div id="result"></div>
+        <div id="endOptions" style="display:none;">
+            <button onclick="playAgain()">Play Again</button>
+            <button onclick="exitGame()"><a href="Index.html" id="back">Exit</a></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
